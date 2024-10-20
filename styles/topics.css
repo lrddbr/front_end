@@ -1,0 +1,27 @@
+.topics {
+    background: var(--blue-gradient); /*Como a variavel --blue-gradient não é uma cor solida normal, não devemos usar o background-color, e sim o background*/
+    text-align: center;
+    padding: 1.6em 0;
+}
+.title_topics {
+    color: var(--white);
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+.list_topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.link_topics {
+    color: var(--white);
+    padding: 1em;
+    background-color: var(--orange);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 1em 1.5em 1em 1.5em;
+}
+.item_topics {
+    margin: 1.5em 0.5em;
+}

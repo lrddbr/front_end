@@ -1,0 +1,69 @@
+.carrossel_title {
+    color: var(--orange);
+    background-color: var(--white);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+}
+.swiper-slide img {
+    width: 100%;
+}
+.swiper-button-prev, 
+.swiper-button-next {
+    display: none;
+}
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+.card_description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+.card_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.buttons {
+    display: flex;
+}
+.card {
+    background: var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+.title_description {
+    color: var(--orange);
+    font-weight: 700;
+}
+.title_description-book {
+    color: var(--blue);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+.text_description{
+    font-size: 14px;
+}
+.buttons_item {
+    margin: 0 0.5em;
+}
+.buttons_anchor {
+    background-color: var(--orange);
+    padding: 1em 2.2em;
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: none;
+}
+.stars {
+    margin-bottom: 0.5em;
+}
+.description {
+    margin-right: 0.5em;
+}

@@ -1,0 +1,50 @@
+.header_menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+.header {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /*libera o absolute a seguir*/
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.container_img {
+    padding: 1em;
+}
+.list-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+.container_btn:checked~.list-menu { /*O ~ é um combinador CSS, se o container_btn for checked ele irá buscar a seguir algum elemento de classe list-menu e prosseguir colocando display: block nele*/
+    display: block;
+}
+.list-menu_title,
+.list-menu_item {
+    padding: 1em;
+    background-color: var(--white);
+}
+.list-menu_title {
+    color: var(--orange);
+    font-weight: 700;
+}
+.list-menu_link {
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+.container_btn {
+    display: none;
+}
